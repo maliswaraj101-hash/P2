@@ -1,0 +1,38 @@
+LowerCasing - convert all letters to lowercase cause python is k sensitive
+HTML tags/URLS - remove via regex
+remove punctuation - !? dont mean anything
+convert fyp , asap , rn , to its full form
+DO SPELLING CORRECTIONS
+remove stop words like a , the , are , is , my using NLTK
+remove emojis or replace emojis with their emotion
+
+ Stemming:
+Definition: Stemming chops off the end of the word to find its root form, often resulting in non-dictionary words.
+
+Method: Rule-based and fast.
+
+Example:
+
+"running" → "run"
+
+"flies" → "fli"
+
+"studies" → "studi"
+
+Disadvantage: Can produce words that are not valid English words
+
+
+ Lemmatization:
+Definition: Lemmatization reduces a word to its dictionary form (lemma), considering the context and part of speech.
+
+Method: Uses vocabulary and morphological analysis.
+
+Example:
+
+"running" → "run"
+
+"flies" → "fly"
+
+"studies" → "study"
+
+Advantage: More accurate than stemming, but slower.
